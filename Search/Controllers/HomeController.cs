@@ -8,6 +8,10 @@ namespace Search.Controllers
 {
     public class HomeController : Controller
     {
+        public string Test()
+        {
+
+        }
         public ActionResult Index()
         {
             return View();
